@@ -1,27 +1,27 @@
 {
   "serverNodeCount": {
-    "value": 3
+    "value": 2
   },
   "serverDiskSize": {
      "value": 32
   },
   "serverVersion": {
-    "value": "5.0.0"
+    "value": "4.6.4"
   },
   "syncGatewayNodeCount": {
-    "value": 2
+    "value": 1
   },
   "syncGatewayVersion": {
     "value": "1.5.0"
   },
   "vmSize": {
-    "value": "Standard_DS3_v2"
+    "value": "Standard_DS12_v2"
   },
   "adminUsername": {
     "value": "couchbase"
   },
   "adminPassword": {
-    "value": "foo123!"
+    "value": "Couchbase123"
   },
   "license": {
     "value": "hourly_pricing"
