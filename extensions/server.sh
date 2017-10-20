@@ -21,8 +21,8 @@ apt-get -y install python-httplib2
 apt-get -y install jq
 
 echo "Installing Couchbase Server..."
-wget http://packages.couchbase.com/releases/${version}/couchbase-server-enterprise_${version}-ubuntu14.04_amd64.deb
-dpkg -i couchbase-server-enterprise_${version}-ubuntu14.04_amd64.deb
+wget http://172.23.120.24/builds/latestbuilds/couchbase-server/watson/4563/couchbase-server-enterprise_4.6.4-4563-ubuntu14.04_amd64.deb
+dpkg -i couchbase-server-enterprise_4.6.4-4563-ubuntu14.04_amd64.deb
 apt-get update
 apt-get -y install couchbase-server
 
